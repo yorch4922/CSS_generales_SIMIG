@@ -1,0 +1,105 @@
+.dorado_chico {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 12 px;
+    font-weight: 900;
+    letter-spacing: 1.5%;
+    padding: 8px 4px;
+    gap: 1rem;
+    border-radius: 4px;
+    border-color: transparent;
+    background:#ac905B ;
+    color: #dfe1e6;
+    
+
+}
+    .dorado_chico:hover {
+        background: #ccb97e;
+        color: white;
+        box-shadow: 0 2 1 rgba(0, 0, 0, 0.1);
+    }
+    .dorado_chico:active {
+        background: transparent;
+        color: #ccb97e;
+        box-shadow: none;
+    }
+.sn_chico_dorado {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 12 px;
+    font-weight: 900;
+    letter-spacing: 1.5%;
+    padding: 8px 4px;
+    gap: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ac905B;
+    background-color: transparent;
+    color: #ac905B;
+}
+    .sn_chico_dorado:hover {
+        box-sizing: border-box;
+        background-color: transparent;
+        color: #ccb97e;
+        border: 1px solid #ccb97e;
+        box-shadow: 0 4 2 rgba(0, 0, 0, .1);
+
+    }
+
+    .sn_chico_dorado:active {
+        border: 1px solid white;
+        background: #ccb97e;
+        color: white;
+    }
+.ghost_dorado_chico {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 12 px;
+    font-weight: 900;
+    letter-spacing: 1.5%;
+    padding: 8px 4px;
+    gap: 1rem;
+    border-radius: 4px;
+    border: none;
+    background-color: transparent;
+    color: #ac905B
+
+}
+    .ghost_dorado_chico:hover {
+        border: 1px solid #998dd9;
+        border-radius: 4 px;
+        color: #ccb97e;
+        box-shadow: 0 4 2 rgba(0, 0, 0, .1);
+    }
+
+    .ghost_dorado_chico:active {
+        color: #998dd9
+    }
+.guinda_chico {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 12 px;
+    font-weight: 900;
+    letter-spacing: 1.5%;
+    padding: 8px 4px;
+    gap: 1rem;
+    border-radius: 4px;
+    border: none;
+    background: #651c32;
+    color: #dfe1e6;
+}
+    .guinda_chico:hover {
+       color: white;
+       box-shadow: 0 4 2 rgba(0, 0, 0, .5);
+    }
+    .guinda_chico:active {
+        background: transparent;
+        color: #651c32;
+    }
