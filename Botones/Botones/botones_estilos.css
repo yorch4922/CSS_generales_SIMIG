@@ -1,0 +1,308 @@
+
+.chico {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 0.15em;
+    padding: 4px 8px;
+    gap: 1rem;
+    border-radius: 4px;
+    height: max-content;
+    font-family: 'Gotham';
+}
+    .chico svg {
+        width: 1em;
+        height: 1em;
+    }
+
+
+.mediano {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    font-weight: 900;
+    letter-spacing: 0.10em;
+    padding: 5px 10px;
+    gap: 1rem;
+    border-radius: 4px;
+    height: 2.5em;
+    font-family: 'Gotham';
+}
+    .mediano svg {
+        width: 1.5em;
+        height: 1.5em;
+    }
+
+.grande {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: 0.08em;
+    padding: 8px 16px;
+    gap: 1rem;
+    border-radius: 4px;
+    height: 3.75em;
+    font-family: 'Gotham';
+}
+
+    .grande svg {
+        width: 2em;
+        height: 2em;
+    }
+
+
+    .dorado {
+
+        border-color: transparent;
+        background:#ac905B ;
+        color: #dfe1e6;
+        box-shadow: none;
+    }
+
+        .dorado svg {
+            fill: #dfe1e6;
+        }
+            .dorado:hover {   
+                border: 1px transparent;
+                background: #ccb97e;
+                color: white;
+                box-shadow: -1px 2px 1px 0px #0000001A;
+                transition: color 0.3s;
+                border: 2px solid #ccb97e;
+            }
+
+            .dorado:hover svg {
+                fill: white;
+                transition: fill 0.3s;
+            }
+
+
+            .dorado:active { 
+                background: transparent;
+                color: #ccb97e;
+                transition: color 0.3s;
+                box-shadow: inset 2 1 0 #0000001A;
+                border: 2px solid transparent
+            }
+
+            .dorado:active svg{
+                fill: #ccb97e;
+            }
+
+
+    .sn {
+        border: 1px solid #ac905B;
+        background-color: transparent;
+        color: #ac905B;
+    }
+
+            .sn svg {
+                fill: #ac905B;
+            }
+
+            .sn:hover {
+                box-sizing: border-box;
+                background-color: transparent;
+                color: #ccb97e;
+                border: 1px solid #ccb97e;
+                box-shadow: 0px 2px 1px 0px #0000001A;
+            }
+
+            .sn:hover {
+                fill: #ccb97e;
+            }
+
+            .sn:hover svg {
+                fill: #ccb97e;
+            }
+
+            .sn:active {
+                border: 1px solid white;
+                background: #ccb97e;
+                color: white;
+            }
+
+            .sn:active svg {
+                fill: white;
+            }
+
+
+    .ghost {
+        color: #ac905B;
+        border: 1px transparent;
+        background-color: transparent;
+    }
+
+    .ghost svg {
+        fill: #ac905B;
+    }
+
+
+        .ghost:hover {
+            box-sizing: border-box;
+            background: transparent;
+            border: none;
+            border-radius: 4 px;
+            color: #ccb97e;
+            box-shadow: 0px 2px 1px 0px #0000001A;
+            padding: 4px 8px;
+        }
+        
+        .ghost:hover svg {
+            fill: #ccb97e;
+        }
+
+        .ghost:active {
+            color: #998dd9
+        }
+
+        .ghost:active svg {
+            fill: #998dd9;
+        }
+
+
+    .guinda {
+        border: transparent;
+        background: #651c32;
+        color: #dfe1e6;
+    }
+
+    .guinda svg {
+        fill: #dfe1e6;
+    }
+
+
+        .guinda:hover {
+        color: white;
+        box-shadow: 0px 2px 1px 0px #0000001A;
+        }
+
+        .guinda:hover svg {
+            fill: #FFFFFF;
+        }
+        .guinda:active {
+            background: transparent;
+            color: #651c32;
+        }
+
+        .guinda:active svg {
+            fill: #651c32;
+        }
+    
+        .sn_guinda {
+            border: 1px solid #651c32;
+            background-color: transparent;
+            color: #651c32;
+        }
+    
+                .sn_guinda svg {
+                    fill: #651c32;
+                }
+    
+                .sn_guinda:hover {
+                    box-sizing: border-box;
+                    background-color: transparent;
+                    color: #651c32;
+                    border: 1px solid #651c32;
+                    box-shadow: 0px 2px 1px 0px #0000001A;
+                }
+    
+
+                .sn_guinda:hover svg {
+                    fill: #651c32;
+                }
+    
+                .sn_guinda:active {
+                    border: 1px solid white;
+                    background: #651c32;
+                    color: white;
+                }
+    
+                .sn_guinda:active svg {
+                    fill: white;
+                }
+        
+                .ghost_guinda {
+                    color: #651c32;
+                    border: 1px transparent;
+                    background-color: transparent;
+                }
+            
+                .ghost_guinda svg {
+                    fill: #651c32;
+                }
+            
+            
+                    .ghost_guinda:hover {
+                        box-sizing: border-box;
+                        background: transparent;
+                        border-radius: 4 px;
+                        color: #651c32;
+                        box-shadow: 0px 2px 1px 0px #0000001A;
+                        padding: 4px 8px;
+                    }
+                    
+                    .ghost_guinda:hover svg {
+                        fill: #651c32;
+                    }
+            
+                    .ghost_guinda:active {
+                        color: #998dd9
+                    }
+            
+                    .ghost_guinda:active svg {
+                        fill: #998dd9;
+                    }
+            
+            
+    
+    
+
+
+.catalogo {
+    width: 320px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    background: #f4f5f7;
+    border-radius: 24px;
+}
+.catalogo svg {
+    top: 32px;
+    left: 80px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    fill: #ac905B;
+}
+.contenido_tarjeta {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 8px 4px;
+gap: 16px;
+
+width: 320px;
+height: 96px;
+
+background: linear-gradient(82.89deg, #FFFFFF 0%, rgba(255, 255, 255, 0.75) 100%);
+border-radius: 16px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}

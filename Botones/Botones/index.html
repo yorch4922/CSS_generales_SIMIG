@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="botones_estilos.css">
+</head>
+<body>
+<!--Las variantes de botones son:
+        -Por tamaño: 
+            chico
+            mediano
+            grande
+        -Por color:
+            dorado
+            guinda
+        -Especificados:
+            sn (sin color de fondo pero con borde)
+            ghost (para ubicar links o url entre el texto, para ubicar acciones específicas entre el texto)
+          Para los botones sn y ghost en color guinda hay que agregar el color
+            sn_guinda
+            ghost_guinda
+
+    COMBINACIONES:
+        - <button class="chico dorado">
+        - <button class="chico sn">
+        - <button class="chico ghost">
+        - <button class="chico guinda">
+        - <button class="chico sn_guinda">
+        - <button class="chico ghost_guinda">
+
+        - <button class="mediano dorado">
+        - <button class="mediano sn">
+        - <button class="mediano ghost">
+        - <button class="mediano guinda">
+        - <button class="mediano sn_guinda">
+        - <button class="mediano ghost_guinda">
+
+        - <button class="grande dorado">
+        - <button class="grande sn">
+        - <button class="grande ghost">
+        - <button class="grande guinda">
+        - <button class="grande sn_guinda">
+        - <button class="grande ghost_guinda">
+
+
+-->
+
+
+
+<div >
+    <button class="dorado chico">prueba sin icono</button>
+    <br>
+    <button class="dorado chico">
+        Prueba cuanto texto puede entrar
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 20C7.5817 20 3.99997 16.4183 3.99997 12C3.99997 7.58173 7.5817 4 12 4C14.5264 4 16.7793 5.17108 18.2454 7H18C17.4477 7 17 7.44772 17 8C17 8.55228 17.4477 9 18 9H21C21.5523 9 22 8.55228 22 8V5C22 4.44772 21.5523 4 21 4C20.4477 4 20 4.44772 20 5V5.99902C18.1755 3.57068 15.2712 2 12 2C6.47713 2 1.99997 6.47715 1.99997 12C1.99997 17.5228 6.47713 22 12 22C15.2715 22 18.1761 20.429 20.0005 18.0003L18.1744 17.0872C16.7071 18.8661 14.486 20 12 20Z" fill/>
+        </svg>
+    </button>
+</div>
+<br>
+<div>
+    <button class="sn chico dorado">
+        Prueba
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 20C7.5817 20 3.99997 16.4183 3.99997 12C3.99997 7.58173 7.5817 4 12 4C14.5264 4 16.7793 5.17108 18.2454 7H18C17.4477 7 17 7.44772 17 8C17 8.55228 17.4477 9 18 9H21C21.5523 9 22 8.55228 22 8V5C22 4.44772 21.5523 4 21 4C20.4477 4 20 4.44772 20 5V5.99902C18.1755 3.57068 15.2712 2 12 2C6.47713 2 1.99997 6.47715 1.99997 12C1.99997 17.5228 6.47713 22 12 22C15.2715 22 18.1761 20.429 20.0005 18.0003L18.1744 17.0872C16.7071 18.8661 14.486 20 12 20Z" fill/>
+        </svg>
+    </button>
+<br>
+    <button class="ghost dorado chico">
+        Prueba
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 20C7.5817 20 3.99997 16.4183 3.99997 12C3.99997 7.58173 7.5817 4 12 4C14.5264 4 16.7793 5.17108 18.2454 7H18C17.4477 7 17 7.44772 17 8C17 8.55228 17.4477 9 18 9H21C21.5523 9 22 8.55228 22 8V5C22 4.44772 21.5523 4 21 4C20.4477 4 20 4.44772 20 5V5.99902C18.1755 3.57068 15.2712 2 12 2C6.47713 2 1.99997 6.47715 1.99997 12C1.99997 17.5228 6.47713 22 12 22C15.2715 22 18.1761 20.429 20.0005 18.0003L18.1744 17.0872C16.7071 18.8661 14.486 20 12 20Z" fill/>
+        </svg>
+    </button>
+<br>
+    <button class="guinda chico">
+        Prueba
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 20C7.5817 20 3.99997 16.4183 3.99997 12C3.99997 7.58173 7.5817 4 12 4C14.5264 4 16.7793 5.17108 18.2454 7H18C17.4477 7 17 7.44772 17 8C17 8.55228 17.4477 9 18 9H21C21.5523 9 22 8.55228 22 8V5C22 4.44772 21.5523 4 21 4C20.4477 4 20 4.44772 20 5V5.99902C18.1755 3.57068 15.2712 2 12 2C6.47713 2 1.99997 6.47715 1.99997 12C1.99997 17.5228 6.47713 22 12 22C15.2715 22 18.1761 20.429 20.0005 18.0003L18.1744 17.0872C16.7071 18.8661 14.486 20 12 20Z" fill/>
+        </svg>
+    </button>
+<br>
+<button class="sn_guinda chico">
+    Prueba
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 20C7.5817 20 3.99997 16.4183 3.99997 12C3.99997 7.58173 7.5817 4 12 4C14.5264 4 16.7793 5.17108 18.2454 7H18C17.4477 7 17 7.44772 17 8C17 8.55228 17.4477 9 18 9H21C21.5523 9 22 8.55228 22 8V5C22 4.44772 21.5523 4 21 4C20.4477 4 20 4.44772 20 5V5.99902C18.1755 3.57068 15.2712 2 12 2C6.47713 2 1.99997 6.47715 1.99997 12C1.99997 17.5228 6.47713 22 12 22C15.2715 22 18.1761 20.429 20.0005 18.0003L18.1744 17.0872C16.7071 18.8661 14.486 20 12 20Z" fill/>
+    </svg>
+</button>
+<br>
+<button class="ghost_guinda chico">
+    Prueba
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 20C7.5817 20 3.99997 16.4183 3.99997 12C3.99997 7.58173 7.5817 4 12 4C14.5264 4 16.7793 5.17108 18.2454 7H18C17.4477 7 17 7.44772 17 8C17 8.55228 17.4477 9 18 9H21C21.5523 9 22 8.55228 22 8V5C22 4.44772 21.5523 4 21 4C20.4477 4 20 4.44772 20 5V5.99902C18.1755 3.57068 15.2712 2 12 2C6.47713 2 1.99997 6.47715 1.99997 12C1.99997 17.5228 6.47713 22 12 22C15.2715 22 18.1761 20.429 20.0005 18.0003L18.1744 17.0872C16.7071 18.8661 14.486 20 12 20Z" fill/>
+    </svg>
+</button>
+<br>
+<button class="dorado mediano">
+    Prueba
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 20C7.5817 20 3.99997 16.4183 3.99997 12C3.99997 7.58173 7.5817 4 12 4C14.5264 4 16.7793 5.17108 18.2454 7H18C17.4477 7 17 7.44772 17 8C17 8.55228 17.4477 9 18 9H21C21.5523 9 22 8.55228 22 8V5C22 4.44772 21.5523 4 21 4C20.4477 4 20 4.44772 20 5V5.99902C18.1755 3.57068 15.2712 2 12 2C6.47713 2 1.99997 6.47715 1.99997 12C1.99997 17.5228 6.47713 22 12 22C15.2715 22 18.1761 20.429 20.0005 18.0003L18.1744 17.0872C16.7071 18.8661 14.486 20 12 20Z" fill/>
+    </svg>
+</button>
+<br>
+<button class="sn_guinda mediano">
+    Prueba
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 20C7.5817 20 3.99997 16.4183 3.99997 12C3.99997 7.58173 7.5817 4 12 4C14.5264 4 16.7793 5.17108 18.2454 7H18C17.4477 7 17 7.44772 17 8C17 8.55228 17.4477 9 18 9H21C21.5523 9 22 8.55228 22 8V5C22 4.44772 21.5523 4 21 4C20.4477 4 20 4.44772 20 5V5.99902C18.1755 3.57068 15.2712 2 12 2C6.47713 2 1.99997 6.47715 1.99997 12C1.99997 17.5228 6.47713 22 12 22C15.2715 22 18.1761 20.429 20.0005 18.0003L18.1744 17.0872C16.7071 18.8661 14.486 20 12 20Z" fill/>
+    </svg>
+</button>
+<br>
+<button class="dorado mediano">
+    Siguiente
+</button>
+<br>
+<div class="catalogo">
+    <svg width="160" height="160" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 3.5C2.77614 3.5 3 3.72386 3 4L3 19.5L22 19.5C22.2761 19.5 22.5 19.7239 22.5 20C22.5 20.2761 22.2761 20.5 22 20.5L2.5014 20.5L2.5 20.5C2.29289 20.5 2.1152 20.3741 2.03929 20.1946C2.01399 20.1348 2 20.069 2 20V4C2 3.72386 2.22386 3.5 2.5 3.5ZM14.6999 5C14.6999 4.44772 15.1477 4 15.6999 4H18.3999C18.9522 4 19.3999 4.44772 19.3999 5V7.43767C19.3999 7.98995 18.9522 8.43767 18.3999 8.43767C17.8477 8.43767 17.3999 7.98995 17.3999 7.43767V7.2501L13.6701 10.6176C13.2894 10.9613 12.7105 10.9613 12.3298 10.6176L9.39993 7.97237L6.47005 10.6176C6.06012 10.9877 5.42778 10.9554 5.05768 10.5455C4.68758 10.1355 4.71987 9.50319 5.1298 9.13309L8.7298 5.88287C9.11046 5.53919 9.6894 5.53919 10.0701 5.88287L12.9999 8.52807L15.8001 6H15.6999C15.1477 6 14.6999 5.55228 14.6999 5ZM4 12.1637V18.0009H7.6V11.6879C7.6 11.5847 7.58436 11.4851 7.55532 11.3914L6.69029 12.1724C5.91817 12.8695 4.75153 12.8528 4 12.1637ZM10.1934 10.6879H9.50006C8.94778 10.6879 8.50006 11.1356 8.50006 11.6879V18.0009H12.1001V12.4745C11.9099 12.3787 11.7321 12.2508 11.5749 12.091L10.1934 10.6879ZM13.9 12.4744V18.0009H17.5V10.8753C17.5 10.4367 17.2177 10.0641 16.8248 9.92926L14.3403 12.1724C14.2044 12.295 14.0562 12.3957 13.9 12.4744ZM18.4 10.2502V18.0009H22V10.0628C22 9.51049 21.5523 9.06278 21 9.06278H20.2281C19.9166 9.76243 19.2153 10.2502 18.4 10.2502H18.4Z"/>
+    </svg>
+    <h1>Tarjeta</h1>
+    
+
+
+</div>
+</body>
+</html>
